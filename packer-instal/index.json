@@ -1,0 +1,27 @@
+{
+  "title": "Packer - Install and verify",
+  "description": "This lab takes you through installing Packer from the HashiCorp repository and verifying it has installed correctly.",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Add HashiCorp Apt Repostiroy",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      },
+      {
+        "title": "Check installation of packer",
+        "text": "step2/text.md",
+        "verify": "step2/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
