@@ -8,4 +8,4 @@ Installing Packer is done the same way as installing any other package from a re
 
 ```
 sudo apt install -y packer
-```
+```{{exec}}
